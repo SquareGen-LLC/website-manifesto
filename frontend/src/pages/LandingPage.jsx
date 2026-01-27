@@ -36,72 +36,73 @@ const LandingPage = () => {
         {/* Manifesto Content */}
         <article className="manifesto">
           <p>
-            For decades, the financial world has accepted a ceiling. The industry standard for 
-            model performance (AUC) hovers at 0.70. This is not a limit of data; it is a limit of architecture.
+            For decades, traditional machine learning has served the financial world well. 
+            Logistic regression, gradient boosting, and ensemble methods have built the foundation 
+            of modern credit scoring. Yet even the best models plateau around 0.70 AUC. This is not 
+            a failure of effort—it is simply a limit of architecture.
           </p>
 
           <p>
-            Traditional machine learning treats a human life as a row of numbers—tabular, disconnected, 
-            and silent. It relies on correlation without causation. It predicts, but it does not understand. 
-            When a model cannot explain why, it is essentially guessing.
+            Classical approaches treat each applicant as a row of numbers—tabular, disconnected, 
+            and context-free. They excel at finding patterns in structured data, but they cannot 
+            read between the lines. They predict, but they do not understand the story.
           </p>
 
           <p className="emphasis">
-            We reject the black box. We believe that true credit intelligence does not come from crunching 
-            more numbers, but from understanding the narrative behind them.
+            We believe the next leap in credit intelligence comes not from replacing what works, 
+            but from adding what's missing: narrative understanding.
           </p>
 
           <p>
-            SquareGen introduces a fundamental shift in the substrate of risk analysis. 
-            We do not just process variables; we read profiles. Our architecture transforms static tabular 
-            data into natural language. We translate "Days Past Due: 30" into a semantic context that a 
-            Large Language Model can reason through.
+            SquareGen builds on top of proven methodologies by introducing a semantic layer. 
+            We transform static tabular data into natural language that Large Language Models 
+            can reason through. "Days Past Due: 30" becomes context—a story that can be 
+            interpreted, not just computed.
           </p>
 
           <p>
-            By encoding tabular data into tokens processed by specialized adapters, we force the model 
-            to behave less like a calculator and more like a master analyst. This is Semantic Scoring. 
-            It is the difference between seeing a credit score drop and understanding that a client is 
-            navigating a temporary liquidity crunch versus a structural solvency crisis.
+            By encoding data into tokens processed by specialized adapters, we unlock a new 
+            dimension of analysis. This is Semantic Scoring: the ability to distinguish between 
+            a temporary liquidity crunch and a structural solvency crisis—nuances that numbers 
+            alone cannot capture.
           </p>
 
           <p>
-            The era of the "Probability of Default" as a blind percentage is over. We build specialized 
-            "brains"—Fine-Tuned LLMs equipped with trainable adapters. These agents do not hallucinate; 
-            they diagnose. They are optimized by loss functions specifically designed to detect payment 
-            patterns in historical data.
+            Our Fine-Tuned LLMs work alongside traditional models, not against them. They add 
+            interpretability without sacrificing rigor. They provide rationales for every decision, 
+            turning black-box outputs into transparent insights.
           </p>
 
           <p>
-            The result is a system that can explain its decision, offering a rationale for every approval 
-            or rejection. We have proven that semantic interpretability leads to mathematical superiority.
+            The result? We enhance what already works and push performance further.
           </p>
 
           <div className="metrics">
             <div className="metric-item">
               <span className="metric-label">The Lift</span>
-              <span className="metric-text">We consistently break the 0.80 AUC barrier, outperforming XGBoost and classical rules.</span>
+              <span className="metric-text">Breaking the 0.80 AUC barrier where traditional methods plateau.</span>
             </div>
             <div className="metric-item">
               <span className="metric-label">The Precision</span>
-              <span className="metric-text">In microfinance, we have achieved AUCs of 0.92 against traditional rule-based systems.</span>
+              <span className="metric-text">Achieving AUCs of 0.92 in microfinance applications.</span>
             </div>
             <div className="metric-item">
               <span className="metric-label">The Recovery</span>
-              <span className="metric-text">Where models stagnate at 0.68, semantic reasoning pushes performance to 0.80.</span>
+              <span className="metric-text">Semantic reasoning pushes performance from 0.68 to 0.80.</span>
             </div>
           </div>
 
           <p>
             The dilemma of the lender has always been the trade-off between the precision of a 
-            human underwriter and the speed of an algorithm. We solve this by deploying the Analyst 
-            in the Loop at infinite scale.
+            human underwriter and the speed of an algorithm. We bridge this gap by deploying the 
+            Analyst in the Loop at infinite scale.
           </p>
 
           <p>
-            Our models provide the separability of a human expert with the throughput of a machine. 
-            We do not just predict if a client will default in the next 12 months; we generate the 
-            certainty required to say "Yes" to the 84% of clients others miss.
+            Our models combine the pattern recognition of classical ML with the contextual 
+            understanding of language models. We don't just predict if a client will default 
+            in the next 12 months—we generate the certainty required to say "Yes" to the 
+            84% of clients others miss.
           </p>
 
           <p className="closing">
