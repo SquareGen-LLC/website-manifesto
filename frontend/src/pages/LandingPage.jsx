@@ -6,8 +6,8 @@ const LandingPage = () => {
     <div className="landing-container">
       {/* Header */}
       <header className="header">
-        <div className="logo">SQUAREGEN</div>
-        <div className="header-tagline">LLM-based Credit Decisioning</div>
+        <div className="logo">SquareGen</div>
+        <h1 className="header-tagline">LLM-based Credit Decisioning</h1>
       </header>
 
       {/* Contact Info Bar */}
@@ -30,7 +30,7 @@ const LandingPage = () => {
       <main className="main-content">
         {/* Thesis Title */}
         <section className="thesis-title">
-          <h1>THE SEMANTIC CREDIT THESIS</h1>
+          <h1>The Semantic Credit Thesis</h1>
         </section>
 
         {/* Section 01 */}
@@ -147,7 +147,7 @@ const LandingPage = () => {
           <a href="mailto:hiring@squaregen.ai">Hiring</a>
         </div>
         <div className="copyright">
-          SquareGen © {new Date().getFullYear()}
+          {new Date().getFullYear()} - SquareGen
         </div>
       </footer>
     </div>

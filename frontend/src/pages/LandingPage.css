@@ -1,18 +1,19 @@
-/* Import elegant fonts */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Space+Grotesk:wght@400;500;600;700&display=swap');
+/* Import SquareGen brand fonts */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700;900&family=DM+Serif+Text&family=PT+Mono&display=swap');
 
-/* Root Variables */
+/* Root Variables - SquareGen Brand Colors */
 :root {
-  --bg-primary: #0a0a0b;
-  --bg-secondary: #111113;
-  --bg-tertiary: #18181b;
-  --text-primary: #fafafa;
-  --text-secondary: #a1a1aa;
-  --text-muted: #71717a;
-  --accent: #e4e4e7;
-  --accent-subtle: #27272a;
-  --border-color: #27272a;
-  --highlight: #d4d4d8;
+  --bg-primary: #0f0f10;
+  --bg-secondary: #161618;
+  --bg-tertiary: #1c1c1f;
+  --bg-card: #1a1a1d;
+  --text-primary: #ffffff;
+  --text-secondary: #cbcbcb;
+  --text-muted: #8a8a8a;
+  --accent: #33c2ff;
+  --accent-subtle: #1a3a4a;
+  --border-color: #2a2a2d;
+  --highlight: #dddee2;
 }
 
 /* Base Styles */
@@ -20,7 +21,7 @@
   min-height: 100vh;
   background-color: var(--bg-primary);
   color: var(--text-primary);
-  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  font-family: 'DM Sans', -apple-system, BlinkMacSystemFont, sans-serif;
   line-height: 1.7;
   font-size: 16px;
   -webkit-font-smoothing: antialiased;
@@ -29,23 +30,27 @@
 
 /* Header */
 .header {
-  padding: 48px 64px 32px;
+  padding: 48px 64px 40px;
   border-bottom: 1px solid var(--border-color);
 }
 
 .logo {
-  font-family: 'Space Grotesk', sans-serif;
+  font-family: 'DM Sans', sans-serif;
   font-size: 14px;
-  font-weight: 600;
-  letter-spacing: 0.2em;
+  font-weight: 700;
+  letter-spacing: 0.15em;
   color: var(--text-primary);
-  margin-bottom: 8px;
+  margin-bottom: 24px;
+  text-transform: uppercase;
 }
 
 .header-tagline {
-  font-size: 13px;
-  color: var(--text-muted);
+  font-family: 'DM Serif Text', serif;
+  font-size: 48px;
   font-weight: 400;
+  color: var(--text-primary);
+  line-height: 1.2;
+  max-width: 700px;
 }
 
 /* Contact Bar */
@@ -65,16 +70,18 @@
 }
 
 .contact-label {
-  font-size: 11px;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 14px;
   text-transform: uppercase;
-  letter-spacing: 0.1em;
-  color: var(--text-muted);
-  font-weight: 500;
+  letter-spacing: 0.3em;
+  color: var(--accent);
+  font-weight: 700;
 }
 
 .contact-link,
 .contact-value {
-  font-size: 14px;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 16px;
   color: var(--text-secondary);
   text-decoration: none;
   transition: color 0.2s ease;
@@ -97,11 +104,11 @@
 }
 
 .thesis-title h1 {
-  font-family: 'Space Grotesk', sans-serif;
-  font-size: 13px;
-  font-weight: 500;
-  letter-spacing: 0.15em;
-  color: var(--text-secondary);
+  font-family: 'DM Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.3em;
+  color: var(--accent);
   text-transform: uppercase;
 }
 
@@ -121,12 +128,13 @@
 }
 
 .section-number {
-  font-family: 'Space Grotesk', sans-serif;
-  font-size: 12px;
-  font-weight: 500;
-  color: var(--text-muted);
+  font-family: 'DM Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--accent);
   min-width: 40px;
-  padding-top: 6px;
+  padding-top: 8px;
+  letter-spacing: 0.05em;
 }
 
 .section-content {
@@ -134,15 +142,16 @@
 }
 
 .section-content h2 {
-  font-family: 'Space Grotesk', sans-serif;
-  font-size: 28px;
-  font-weight: 500;
+  font-family: 'DM Serif Text', serif;
+  font-size: 32px;
+  font-weight: 400;
   color: var(--text-primary);
   margin-bottom: 32px;
   line-height: 1.3;
 }
 
 .section-content p {
+  font-family: 'DM Sans', sans-serif;
   font-size: 16px;
   color: var(--text-secondary);
   margin-bottom: 24px;
@@ -157,26 +166,26 @@
   color: var(--text-primary);
   font-weight: 400;
   padding-left: 24px;
-  border-left: 2px solid var(--accent-subtle);
+  border-left: 3px solid var(--accent);
   margin-top: 32px;
   margin-bottom: 32px;
 }
 
 .section-content p.manifesto {
-  font-family: 'Space Grotesk', sans-serif;
-  font-size: 20px;
-  font-weight: 500;
-  color: var(--highlight);
+  font-family: 'DM Serif Text', serif;
+  font-size: 24px;
+  font-weight: 400;
+  color: var(--text-primary);
   margin-top: 48px;
   padding-top: 32px;
   border-top: 1px solid var(--border-color);
-  line-height: 1.6;
+  line-height: 1.5;
 }
 
 /* Metrics Grid */
 .metrics-grid {
   display: grid;
-  gap: 24px;
+  gap: 20px;
   margin-top: 40px;
   padding-top: 32px;
   border-top: 1px solid var(--border-color);
@@ -184,8 +193,8 @@
 
 .metric {
   padding: 24px;
-  background-color: var(--bg-secondary);
-  border-radius: 6px;
+  background-color: var(--bg-card);
+  border-radius: 8px;
   border: 1px solid var(--border-color);
   transition: border-color 0.3s ease, background-color 0.3s ease;
 }
@@ -196,15 +205,18 @@
 }
 
 .metric-label {
-  font-family: 'Space Grotesk', sans-serif;
+  font-family: 'DM Sans', sans-serif;
   font-size: 14px;
-  font-weight: 500;
-  color: var(--text-primary);
-  margin-bottom: 8px;
+  font-weight: 700;
+  color: var(--accent);
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
 }
 
 .metric-value {
-  font-size: 14px;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 16px;
   color: var(--text-secondary);
   line-height: 1.7;
 }
@@ -226,6 +238,7 @@
 }
 
 .footer-links a {
+  font-family: 'DM Sans', sans-serif;
   font-size: 14px;
   color: var(--text-secondary);
   text-decoration: none;
@@ -233,7 +246,7 @@
 }
 
 .footer-links a:hover {
-  color: var(--text-primary);
+  color: var(--accent);
 }
 
 .footer-links .separator {
@@ -241,7 +254,8 @@
 }
 
 .copyright {
-  font-size: 13px;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 12px;
   color: var(--text-muted);
 }
 
@@ -249,6 +263,10 @@
 @media (max-width: 768px) {
   .header {
     padding: 32px 24px 24px;
+  }
+
+  .header-tagline {
+    font-size: 36px;
   }
 
   .contact-bar {
@@ -276,7 +294,7 @@
   }
 
   .section-content h2 {
-    font-size: 22px;
+    font-size: 26px;
     margin-bottom: 24px;
   }
 
@@ -285,7 +303,7 @@
   }
 
   .section-content p.manifesto {
-    font-size: 18px;
+    font-size: 20px;
   }
 
   .footer {
@@ -301,6 +319,10 @@
     padding: 24px 16px 20px;
   }
 
+  .header-tagline {
+    font-size: 28px;
+  }
+
   .contact-bar {
     padding: 20px 16px;
     gap: 24px;
@@ -311,7 +333,7 @@
   }
 
   .section-content h2 {
-    font-size: 20px;
+    font-size: 22px;
   }
 
   .section-content p.emphasis {
