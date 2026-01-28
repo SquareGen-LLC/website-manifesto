@@ -1,5 +1,5 @@
 /* Import SquareGen brand fonts */
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700;900&family=DM+Serif+Text&family=PT+Mono&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700;900&family=DM+Serif+Text&family=PT+Mono&display=swap");
 
 /* Root Variables - SquareGen Brand Colors */
 :root {
@@ -21,7 +21,11 @@
   min-height: 100vh;
   background-color: var(--bg-primary);
   color: var(--text-primary);
-  font-family: 'DM Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+  font-family:
+    "DM Sans",
+    -apple-system,
+    BlinkMacSystemFont,
+    sans-serif;
   line-height: 1.7;
   font-size: 16px;
   -webkit-font-smoothing: antialiased;
@@ -36,17 +40,27 @@
 }
 
 .logo {
-  font-family: 'DM Sans', sans-serif;
+  font-family: "DM Sans", sans-serif;
   font-size: 14px;
   font-weight: 700;
   letter-spacing: 0.15em;
   color: var(--text-primary);
   margin-bottom: 32px;
   text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+.logo-image {
+  width: 140px;
+  height: auto;
+  display: block;
 }
 
 .header-tagline {
-  font-family: 'DM Serif Text', serif;
+  font-family: "DM Serif Text", serif;
   font-size: 72px;
   font-weight: 400;
   color: var(--text-primary);
@@ -73,7 +87,7 @@
 }
 
 .contact-label {
-  font-family: 'DM Sans', sans-serif;
+  font-family: "DM Sans", sans-serif;
   font-size: 14px;
   text-transform: uppercase;
   letter-spacing: 0.3em;
@@ -83,7 +97,7 @@
 
 .contact-link,
 .contact-value {
-  font-family: 'DM Sans', sans-serif;
+  font-family: "DM Sans", sans-serif;
   font-size: 16px;
   color: var(--text-secondary);
   text-decoration: none;
@@ -108,7 +122,7 @@
 }
 
 .manifesto-header h2 {
-  font-family: 'DM Sans', sans-serif;
+  font-family: "DM Sans", sans-serif;
   font-size: 14px;
   font-weight: 700;
   letter-spacing: 0.3em;
@@ -118,7 +132,7 @@
 
 /* Manifesto Content */
 .manifesto {
-  font-family: 'DM Sans', sans-serif;
+  font-family: "DM Sans", sans-serif;
   text-align: center;
 }
 
@@ -130,7 +144,7 @@
 }
 
 .manifesto p.emphasis {
-  font-family: 'DM Serif Text', serif;
+  font-family: "DM Serif Text", serif;
   font-size: 24px;
   color: var(--text-primary);
   padding: 32px 0;
@@ -141,7 +155,7 @@
 }
 
 .manifesto p.closing {
-  font-family: 'DM Serif Text', serif;
+  font-family: "DM Serif Text", serif;
   font-size: 28px;
   font-weight: 400;
   color: var(--text-primary);
@@ -168,7 +182,7 @@
 }
 
 .metric-label {
-  font-family: 'DM Sans', sans-serif;
+  font-family: "DM Sans", sans-serif;
   font-size: 14px;
   font-weight: 700;
   color: var(--accent);
@@ -179,7 +193,7 @@
 }
 
 .metric-text {
-  font-family: 'DM Sans', sans-serif;
+  font-family: "DM Sans", sans-serif;
   font-size: 16px;
   color: var(--text-secondary);
   line-height: 1.7;
@@ -203,7 +217,7 @@
 }
 
 .footer-links a {
-  font-family: 'DM Sans', sans-serif;
+  font-family: "DM Sans", sans-serif;
   font-size: 14px;
   color: var(--text-secondary);
   text-decoration: none;
@@ -219,7 +233,7 @@
 }
 
 .copyright {
-  font-family: 'DM Sans', sans-serif;
+  font-family: "DM Sans", sans-serif;
   font-size: 12px;
   color: var(--text-muted);
 }

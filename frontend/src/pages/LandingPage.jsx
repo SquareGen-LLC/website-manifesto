@@ -1,12 +1,15 @@
 import React from 'react';
 import './LandingPage.css';
+import logoWhite from '../assets/logo-white.svg';
 
 const LandingPage = () => {
   return (
     <div className="landing-container">
       {/* Header */}
       <header className="header">
-        <div className="logo">SquareGen</div>
+        <div className="logo">
+          <img src={logoWhite} alt="SquareGen" className="logo-image" />
+        </div>
         <h1 className="header-tagline">LLM-based<br />Credit Decisioning</h1>
       </header>
 
